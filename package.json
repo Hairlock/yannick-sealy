@@ -1,0 +1,29 @@
+{
+  "name": "yannick-sealy",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hairlock/yannick-sealy.git"
+  },
+  "author": "Yannick Sealy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hairlock/yannick-sealy/issues"
+  },
+  "homepage": "https://github.com/Hairlock/yannick-sealy#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^1.0.0",
+    "next": "^3.0.1-beta.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
